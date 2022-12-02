@@ -178,6 +178,7 @@ function App() {
             </li>
           </ul>
         </div>
+        <p className="button_container"><a href="https://unctad.org/webflyer/double-burden-effects-food-price-increases-and-currency-depreciations-food-import-bills" className="button">Download the report in PDF</a></p>
       </div>
       <noscript>Your browser does not support JavaScript!</noscript>
     </div>
