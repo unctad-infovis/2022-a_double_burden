@@ -61,8 +61,8 @@ function App() {
       // Introduction container
       }
       <div className="content_container">
-        <p>The price of food has increased everywhere, reaching historic levels in 2022. This is a challenge for food security globally, but particularly for net food-importing developing countries. And unlike in previous food crises, they now face a double burden. They not only pay higher prices for the food they import, but the price increase is exacerbated by the depreciation of their currency vis-à-vis the US dollar. This erodes the fiscal space that many developing countries need to face the concomitant challenges of recovering from the COVID-19 pandemic, the cost-of-living crisis, and the climate emergency.</p>
-        <p>This note assesses the potential effect of high prices of wheat and concurrent currency devaluations on the import bills of selected developing countries.</p>
+        <p><strong>The price of food has increased everywhere, reaching historic levels in 2022. This is a challenge for food security globally, but particularly for net food-importing developing countries. And unlike in previous food crises, they now face a double burden. They not only pay higher prices for the food they import, but the price increase is exacerbated by the depreciation of their currency vis-à-vis the US dollar. This erodes the fiscal space that many developing countries need to face the concomitant challenges of recovering from the COVID-19 pandemic, the cost-of-living crisis, and the climate emergency.</strong></p>
+        <p><strong>This note assesses the potential effect of high prices of wheat and concurrent currency devaluations on the import bills of selected developing countries.</strong></p>
       </div>
       {
       // Section 1 container
@@ -139,7 +139,7 @@ function App() {
               <span className="not_highlight">to avoid a widespread debt crisis. UNCTAD has called on international financial institutions to increase liquidity for developing countries and use existing channels to increase accessibility of these resources to those in need.</span>
             </li>
           </ul>
-          <h4 className="recommendations_header recommendations_header_2"><span className="highlight">Ensurng open trade and access to staple foods</span></h4>
+          <h4 className="recommendations_header recommendations_header_2"><span className="highlight">Ensuring open trade and access to staple foods</span></h4>
           <ul>
             <li>
               <span className="highlight">Maintaining open international markets</span>
