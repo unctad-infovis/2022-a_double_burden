@@ -45,27 +45,24 @@ function App() {
           </div>
         </div>
       </div>
-      <p className="button_container"><a href="#1" className="button">Download the report in PDF</a></p>
+      <p className="button_container"><a href="https://unctad.org/webflyer/double-burden-effects-food-price-increases-and-currency-depreciations-food-import-bills" className="button">Download the report in PDF</a></p>
       {
       // Acknowledgements container
       }
-      <div className="content_container">
+      {/*      <div className="content_container">
         <h4 className="title">Acknowledgements</h4>
         <p>
           This document was prepared under supervision of Miho Shirotori with the contribution of Julien Bliesener, Rodrigo Carcamo, Jeanelle Clarke, Stefan Csordas, Taisuke Ito, Christian Knebel, Graham Mott, Alessandro Nicita, Janvier Nkurunziza, Romain Perez, Ralf Peters, Carlos Razo and Mesut Saygili.
           <br />
           Graphic design and desktop publishing were done by Nadege Hadjémian.
         </p>
-      </div>
+      </div> */}
       {
       // Introduction container
       }
-      <div className="background">
-        <div className="content_container">
-          <h4 className="title">Introduction</h4>
-          <p>The price of food has increased everywhere, reaching historic levels in 2022. This is a challenge for food security globally, but particularly for net food-importing developing countries. And unlike in previous food crises, they now face a double burden. They not only pay higher prices for the food they import, but the price increase is exacerbated by the depreciation of their currency vis-à-vis the US dollar. This erodes the fiscal space that many developing countries need to face the concomitant challenges of recovering from the COVID-19 pandemic, the cost-of-living crisis, and the climate emergency.</p>
-          <p>This note assesses the potential effect of high prices of wheat and concurrent currency devaluations on the import bills of selected developing countries.</p>
-        </div>
+      <div className="content_container">
+        <p>The price of food has increased everywhere, reaching historic levels in 2022. This is a challenge for food security globally, but particularly for net food-importing developing countries. And unlike in previous food crises, they now face a double burden. They not only pay higher prices for the food they import, but the price increase is exacerbated by the depreciation of their currency vis-à-vis the US dollar. This erodes the fiscal space that many developing countries need to face the concomitant challenges of recovering from the COVID-19 pandemic, the cost-of-living crisis, and the climate emergency.</p>
+        <p>This note assesses the potential effect of high prices of wheat and concurrent currency devaluations on the import bills of selected developing countries.</p>
       </div>
       {
       // Section 1 container
@@ -75,7 +72,7 @@ function App() {
         <div className="heading_wrapper"><h3>The emergence of the double burden: historically high food prices coupled with a strong US dollar</h3></div>
       </div>
       <div className="content_container">
-        <p>In the current century, the world has suffered three major food price spikes. The first two happened in 2007-2008 and 2010-2012. The third one is happening now. Brought on by the COVID-19 pandemic and the war in Ukraine, food prices have risen to historic heights (Figure 1).</p>
+        <p>In the current century, the world has suffered three major food price spikes. The first two happened in 2007–2008 and 2010–2012. The third one is happening now. Brought on by the COVID-19 pandemic and the war in Ukraine, food prices have risen to historic heights (Figure 1).</p>
         <p>But there is a major difference among these price spikes, with severe consequences for net food-importing developing countries. During the first two spikes, as food prices went up, the value of the US dollar, the main currency used in international trade transactions, went down. The depreciation of the US dollar and the consequent appreciation of other currencies made imports cheaper and provided some ease to food import bills for many developing countries.</p>
         <p>However, the current price spike is different. In an attempt to combat high inflation in the United States of America, the Federal Reserve increased its interest rates causing the US dollar to appreciate some 24 per cent between May 2021 and October 2022 (Figure 1). This made the US dollar and the food that developing countries buy with it more expensive.</p>
         <p>
@@ -85,7 +82,7 @@ function App() {
         </p>
       </div>
       <div className="chart_container">
-        <ChartContainer src="https://datawrapper.dwcdn.net/ewRFz/1/" title="A double burden: high food prices and a strong US dollar" />
+        <ChartContainer src="https://datawrapper.dwcdn.net/NlGLq/2/" title="A double burden: high food prices and a strong US dollar" />
       </div>
       {
       // Section 2 container
@@ -99,20 +96,20 @@ function App() {
         <p>Since 2020 wheat prices have increased substantially (Figure 2). As of October 2022, the average price was 89 per cent higher than the average in 2020. During the same period, the average US dollar exchange rate vis-à-vis the respective national currencies rose between 10 and 46 per cent.</p>
       </div>
       <div className="chart_container">
-        <ChartContainer src="https://datawrapper.dwcdn.net/n1rwC/1/" title="The upward trend of wheat prices" />
+        <ChartContainer src="https://datawrapper.dwcdn.net/TRD4d/2/" title="The upward trend of wheat prices" />
       </div>
       <div className="content_container">
-        <p>Changes in international prices and exchange rates have an impact on wheat import prices. Figure 3 shows that even when international prices are the same, the exchange rate effect makes a difference. The estimated price increases range between 106 and 176 per cent - more than double the price in 2020.</p>
+        <p>Changes in international prices and exchange rates have an impact on wheat import prices. Figure 3 shows that even when international prices are the same, the exchange rate effect makes a difference. The estimated price increases range between 106 and 176 per cent – more than double the price in 2020.</p>
       </div>
       <div className="chart_container">
-        <ChartContainer src="https://datawrapper.dwcdn.net/FMZg0/1/" title="Exchange rates can increase wheat import prices" />
+        <ChartContainer src="https://datawrapper.dwcdn.net/w3U1J/1/" title="Exchange rates can increase wheat import prices" />
       </div>
       <div className="content_container">
         <p>This illustrates that the exchange rate effect is a significant driver of rising food import bills, contributing to inflation, loss of purchasing power and food insecurity. The poor in developing countries, who spend a significant share of their income on foodstuffs, are most affected.</p>
         <p>To import the same volume of wheat as in 2020, import bills in 2022 would rise sharply (Table 1). For example, Egypt imported 13.2 million tons of wheat in 2020. To import the same amount this year, they would have to pay 54 billion Egyptian pounds more, the equivalent of US$ 3 billion at the current exchange rate.</p>
       </div>
       <div className="chart_container">
-        <ChartContainer src="https://datawrapper.dwcdn.net/3GTOe/2/" title="Countries are paying more for the same amount of wheat" />
+        <ChartContainer src="https://datawrapper.dwcdn.net/EY0oZ/2/" title="Countries are paying more for the same amount of wheat" />
       </div>
       {
       // Section 3 container
