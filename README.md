@@ -3,7 +3,7 @@
 **Live demo** https://unctad-infovis.github.io/2022-a_double_burden/
 
 ## Used in
-* [A Trade Hope Report](https://unctad.org/a-trade-hope)
+* [A Double Burden Report](https://unctad.org/a-double-burden)
 
 ## Rights of usage
 
