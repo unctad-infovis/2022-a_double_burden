@@ -61,7 +61,7 @@ function App() {
       // Introduction container
       }
       <div className="content_container">
-        <p><strong>The price of food has increased everywhere, reaching historic levels in 2022, as stated by the Global Crisis Response Group. This is a challenge for food security globally, but particularly for net food- importing developing countries. And unlike in previous food crises, they now face a double burden. They not only pay higher prices for the food they import, but the price increase is exacerbated by the depreciation of their currency vis-à-vis the US dollar. This erodes the fiscal space that many developing countries need to face the concomitant challenges of recovering from the COVID-19 pandemic, the cost-of-living crisis, and the climate emergency.</strong></p>
+        <p><strong>The price of food has increased everywhere, reaching historic levels in 2022, as stated by the Global Crisis Response Group. This is a challenge for food security globally, but particularly for net food-importing developing countries. And unlike in previous food crises, they now face a double burden. They not only pay higher prices for the food they import, but the price increase is exacerbated by the depreciation of their currency vis-à-vis the US dollar. This erodes the fiscal space that many developing countries need to face the concomitant challenges of recovering from the COVID-19 pandemic, the cost-of-living crisis, and the climate emergency.</strong></p>
         <p><strong>This note assesses the potential effect of high prices of wheat and concurrent currency devaluations on the import bills of selected developing countries.</strong></p>
       </div>
       {
@@ -72,7 +72,7 @@ function App() {
         <div className="heading_wrapper"><h3>The emergence of the double burden: historically high food prices coupled with a strong US dollar</h3></div>
       </div>
       <div className="content_container">
-        <p>In the current century, the world has suffered three major food price spikes. The first two happened in 2007-2008 and 2010-2012. The third one is happening now. Brought on by the COVID-19 pandemic and the war in Ukraine, food prices have risen to historic heights (Figure 1).</p>
+        <p>In the current century, the world has suffered three major food price spikes. The first two happened in 2007–2008 and 2010–2012. The third one is happening now. Brought on by the COVID-19 pandemic and the war in Ukraine, food prices have risen to historic heights (Figure 1).</p>
         <p>But there is a major difference among these price spikes, with severe consequences for net food-importing developing countries. During the first two spikes, as food prices went up, the value of the US dollar, the main currency used in international trade transactions, went down. The depreciation of the US dollar and the consequent appreciation of other currencies made imports cheaper and provided some ease to food import bills for many developing countries.</p>
         <p>However, the current price spike is different. In an attempt to combat high inflation in the United States of America, the Federal Reserve increased its interest rates causing the US dollar to appreciate some 24 per cent between May 2021 and October 2022 (Figure 1). This made the US dollar and the food that developing countries buy with it more expensive.</p>
         <p>
@@ -102,7 +102,8 @@ function App() {
         <ChartContainer src="https://datawrapper.dwcdn.net/DsY5r/" title="The upward trend of wheat prices" />
       </div>
       <div className="content_container">
-        <p>Changes in international prices and exchange rates have an impact on wheat import prices. Figure 3 shows that even when international prices are the same, the exchange rate effect makes a difference. The estimated price increases range between 106 and 176 per cent - more than double the price in 2020.</p>
+        <p>Changes in international prices and exchange rates have an impact on wheat import prices. Figure 3 shows that even when international prices are the same, the exchange rate effect makes a difference. The estimated price increases range between 106 and 176 per cent – more than double the price in 2020.</p>
+        <p>This illustrates that the exchange rate effect is a significant driver of rising food import bills, contributing to inflation, loss of purchasing power and food insecurity.</p>
       </div>
       <div className="chart_container">
         <ChartContainer src="https://datawrapper.dwcdn.net/qDOy6/" title="Exchange rates can increase wheat import prices" />
@@ -122,7 +123,7 @@ function App() {
           <div className="section_banner"><div className="number">3</div></div>
         </div>
         <div className="content_container">
-          <div className="heading_wrapper"><h3>What should be done ?</h3></div>
+          <div className="heading_wrapper"><h3>What should be done?</h3></div>
           <p className="highlight">The double burden of high food prices and an appreciating US dollar is a toxic blend for net food-importing developing countries. To address these challenges, and following on the Global Crisis Response Group proposals, three broad areas emerge for policy action:</p>
           <h4 className="recommendations_header recommendations_header_1"><span className="highlight">Easing financial constraints</span></h4>
           <ul>
@@ -141,6 +142,7 @@ function App() {
               {' '}
               <span className="not_highlight">
                 to avoid a widespread debt crisis. The
+                {' '}
                 <a href="https://unctad.org/system/files/official-document/un-gcrg-ukraine-brief-no-1_en.pdf">Global Crisis Response Group</a>
                 , and UNCTAD, call on international financial institutions to increase liquidity for developing countries and use existing channels to increase accessibility of these resources to those in need. Debt issues must move higher in the political agenda, and with realistic estimations of the nature and magnitude of the debt relief needed. A revised and implementable G20 common framework is also necessary to provide timely debt restructuring to countries in need.
               </span>
